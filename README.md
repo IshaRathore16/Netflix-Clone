@@ -1,5 +1,5 @@
-Netflix-Clone
 The Netflix Clone is a dynamic, fully responsive streaming platform inspired by the original Netflix interface. It replicates the basic functionalities of Netflix, allowing users to browse, search, and stream a curated collection of movies and TV series. This project demonstrates my skills in frontend web development, dynamic content handling, and API integration.
+
 Features
 User Authentication
 
