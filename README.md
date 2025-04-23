@@ -1,26 +1,24 @@
 The Netflix Clone is a dynamic, fully responsive streaming platform inspired by the original Netflix interface. It replicates the basic functionalities of Netflix, allowing users to browse, search, and stream a curated collection of movies and TV series. This project demonstrates my skills in frontend web development, dynamic content handling, and API integration.
 
-Features
+Features-
 User Authentication
-
 Secure Sign Up and Login functionality
 Modern UI/UX
-
 Clean, dark-themed Netflix-inspired design
 Responsive layout compatible with desktops, tablets and mobile devices
 Smooth hover effects and animations
 Dynamic Movie and TV Show Listings
 
-Categorized sections: Movies, Series, and TV Shows
+Categorized sections- 
+Movies, Series, and TV Shows
 Thumbnails and banners fetched dynamically
 Trailer previews on selection
 Search functionality to find your favorite content instantly
 Fully Responsive
-
 Mobile-friendly and optimized across devices
 Flexbox and Media Queries for seamless adaptation
 
-Tech Stack
+Tech Stack-
 Frontend: HTML5, CSS3, JavaScript
 API: The Movie Database (TMDB) for fetching movies, shows, and thumbnails
 Version Control: Git & GitHub
