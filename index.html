@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Netflix Clone</h1>
+    <input type="text" id="search" placeholder="Search...">
+  </header>
+
+
+  <div id="auth-container">
+    <div id="signup-form" class="auth-form">
+      <h2>Sign Up</h2>
+      <input type="text" id="signup-username" placeholder="Username" />
+      <input type="password" id="signup-password" placeholder="Password" />
+      <input type="password" id="signup-confirm" placeholder="Confirm Password" />
+      <button onclick="signUp()">Sign Up</button>
+      <p>Already have an account? <a href="#" onclick="toggleForm('login')">Log In</a></p>
+    </div>
+
+    <div id="login-form" class="auth-form hidden">
+      <h2>Log In</h2>
+      <input type="text" id="login-username" placeholder="Username" />
+      <input type="password" id="login-password" placeholder="Password" />
+      <button onclick="logIn()">Log In</button>
+      <p>Don't have an account? <a href="#" onclick="toggleForm('signup')">Sign Up</a></p>
+    </div>
+  </div>
+
+  <main id="main-content" class="hidden">
+    <section>
+      <h2>Movies</h2>
+      <div class="content-list" id="movies"></div>
+    </section>
+
+    <section>
+      <h2>Series</h2>
+      <div class="content-list" id="series"></div>
+    </section>
+
+    <section>
+      <h2>TV Shows</h2>
+      <div class="content-list" id="tvshows"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
